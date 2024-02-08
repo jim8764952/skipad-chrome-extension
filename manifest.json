@@ -1,0 +1,28 @@
+{
+  "name": "AD Jumper",
+  "description": "Skip The AD!",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "action": {},
+  "icons": {
+    "16": "./32x32.png",
+    "32": "./32x32.png",
+    "48": "./32x32.png",
+    "128": "./32x32.png"
+  },
+  "commands": {
+    "skip": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Skip The AD!"
+    }
+  }
+}
